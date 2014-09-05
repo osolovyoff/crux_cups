@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{ab09d54d-844f-43ac-93c1-df88b13ffe90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui">
+      <UniqueIdentifier>{87ab2420-dad2-4e1c-aa67-f72887b9e502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui\element">
+      <UniqueIdentifier>{59036cde-c03a-4ca6-9129-02746d78ebad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{f6e4791e-8e08-425b-a579-824a31f8d68a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\settings.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\background.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cursor.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\developer.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menu.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menuitem.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tutorial.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\button.cpp">
+      <Filter>source\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="src\image.cpp">
+      <Filter>source\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="src\text.cpp">
+      <Filter>source\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="src\widget.cpp">
+      <Filter>source\ui\element</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml\tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="src\winMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\manager.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="src\background.h">
+      <Filter>source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cursor.h">
+      <Filter>source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\developer.h">
+      <Filter>source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menu.h">
+      <Filter>source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\menuitem.h">
+      <Filter>source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tutorial.h">
+      <Filter>source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\button.h">
+      <Filter>source\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="src\image.h">
+      <Filter>source\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="src\text.h">
+      <Filter>source\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="src\to_menu_btn.h">
+      <Filter>source\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="src\widget.h">
+      <Filter>source\ui\element</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml\tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml\tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="src\userfn.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,43 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Level width="18" height="14">
+	<Map>
+		<Cell i="0" j="2" type="4"></Cell>
+		<Cell i="0" j="4" type="4"></Cell>
+		<Cell i="0" j="5" type="2"></Cell>
+		<Cell i="0" j="6" type="7"></Cell>
+		<Cell i="1" j="2" type="2"></Cell>
+		<Cell i="1" j="4" type="0"></Cell>
+		<Cell i="2" j="2" type="7"></Cell>
+		<Cell i="2" j="3" type="0"></Cell>
+		<Cell i="2" j="4" type="0"></Cell>
+		<Cell i="2" j="5" type="0"></Cell>
+		<Cell i="2" j="6" type="4"></Cell>
+		<Cell i="3" j="4" type="0"></Cell>
+		<Cell i="3" j="6" type="2"></Cell>
+		<Cell i="4" j="2" type="4"></Cell>
+		<Cell i="4" j="3" type="2"></Cell>
+		<Cell i="4" j="4" type="7"></Cell>
+		<Cell i="4" j="6" type="7"></Cell>
+	</Map>
+	<Result>
+		<Cell i="0" j="2" type="7"></Cell>
+		<Cell i="0" j="4" type="7"></Cell>
+		<Cell i="0" j="5" type="2"></Cell>
+		<Cell i="0" j="6" type="4"></Cell>
+		<Cell i="1" j="2" type="2"></Cell>
+		<Cell i="2" j="2" type="4"></Cell>
+		<Cell i="2" j="6" type="7"></Cell>
+		<Cell i="3" j="6" type="2"></Cell>
+		<Cell i="4" j="2" type="7"></Cell>
+		<Cell i="4" j="3" type="2"></Cell>
+		<Cell i="4" j="4" type="4"></Cell>
+		<Cell i="4" j="6" type="4"></Cell>
+	</Result>
+</Level>
+
+<!-- cup value
+	   -1 = wall,
+	    0 = way,
+	 1-99 = color of cup;
+ -->

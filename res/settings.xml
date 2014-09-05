@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+	<Display is_window="true">
+		<FullScreen width="100" height="100" fps="100" />
+		<Window width="80" height="80" fps="60" />			
+	</Display>
+	<List level_count="10">
+		<Level path="level/level_1.xml"/>
+		<Level path="level/level_2.xml"/>
+		<Level path="level/level_3.xml"/>
+		<Level path="level/level_4.xml"/>
+		<Level path="level/level_5.xml"/>
+		<Level path="level/level_6.xml"/>
+		<Level path="level/level_7.xml"/>
+		<Level path="level/level_8.xml"/>
+		<Level path="level/level_9.xml"/>
+		<Level path="level/level_10.xml"/>
+	</List>
+	<Map map_cell="9"/>
+</Settings>
+<Resources>
+	<Sprite id="btn_1"   src="img/glass_orbs.png" x="3"   y="3"   w="84" h="84"/>
+	<Sprite id="btn_2"   src="img/glass_orbs.png" x="88"  y="88"  w="84" h="84"/>
+	<Sprite id="btn_3"   src="img/glass_orbs.png" x="88"  y="3"   w="84" h="84"/>
+	<Sprite id="btn_4"   src="img/glass_orbs.png" x="3"   y="88"  w="84" h="84"/>
+	<Sprite id="btn_5"   src="img/glass_orbs.png" x="345" y="3"   w="84" h="84"/>
+	<Sprite id="btn_6"   src="img/glass_orbs.png" x="261" y="176" w="84" h="84"/>
+	<Sprite id="btn_7"   src="img/glass_orbs.png" x="174" y="3"   w="84" h="84"/>
+	<Sprite id="btn_8"   src="img/glass_orbs.png" x="261" y="3"   w="84" h="84"/>
+	<Sprite id="btn_9"   src="img/glass_orbs.png" x="345" y="176" w="84" h="84"/>
+	<Sprite id="btn_10"  src="img/glass_orbs.png" x="261" y="88"  w="84" h="84"/>
+	<Sprite id="btn_11"  src="img/glass_orbs.png" x="88"  y="176" w="84" h="84"/>
+	<Sprite id="btn_12"  src="img/glass_orbs.png" x="3"   y="176" w="84" h="84"/>
+	<Sprite id="btn_13"  src="img/glass_orbs.png" x="174" y="88"  w="84" h="84"/>
+	
+  	<Sprite id="mini_1"  src="img/glass_orbs.png"   x="3"   y="3"   w="84" h="84"/>
+  	<Sprite id="mini_2"  src="img/glass_orbs.png"   x="88"  y="88"  w="84" h="84"/>
+  	<Sprite id="mini_3"  src="img/glass_orbs.png"   x="88"  y="3"   w="84" h="84"/>
+  	<Sprite id="mini_4"  src="img/glass_orbs.png"   x="3"   y="88"  w="84" h="84"/>
+  	<Sprite id="mini_5"  src="img/glass_orbs.png"   x="345" y="3"   w="84" h="84"/>
+  	<Sprite id="mini_6"  src="img/glass_orbs.png"   x="261" y="176" w="84" h="84"/>
+  	<Sprite id="mini_7"  src="img/glass_orbs.png"   x="174" y="3"   w="84" h="84"/>
+  	<Sprite id="mini_8"  src="img/glass_orbs.png"   x="261" y="3"   w="84" h="84"/>
+	<Sprite id="mini_9"  src="img/glass_orbs.png"   x="345" y="176" w="84" h="84"/>
+	<Sprite id="mini_10" src="img/glass_orbs.png"   x="261" y="88"  w="84" h="84"/>
+	<Sprite id="mini_11" src="img/glass_orbs.png"   x="88"  y="176" w="84" h="84"/>
+	<Sprite id="mini_12" src="img/glass_orbs.png"   x="3"   y="176" w="84" h="84"/>
+	<Sprite id="mini_13" src="img/glass_orbs.png"   x="174" y="88"  w="84" h="84"/>
+
+	<Sprite id="cursor"  src="img/cursor.png"     x="0" y="0" w="32"  h="32"/>
+	<Sprite id="wall"    src="img/black_tile.png" x="0" y="0" w="250" h="250"/>
+	<Sprite id="way"     src="img/tile.jpg"       x="0" y="0" w="250" h="250"/>
+	<Sprite id="bg"      src="img/bg.jpg"  		  x="0" y="0" w="150" h="150"/>
+	<Sprite id="vbv"     src="img/dev_vbv.png" 	  x="0" y="0" w="500" h="700"/>
+	<Sprite id="vbv2"    src="img/dev_vbv2.png"   x="0" y="0" w="500" h="700"/>
+	<Sprite id="quit"    src="img/turnback.png"	  x="0" y="0" w="250" h="125"/>
+	<Sprite id="help"    src="img/exam.jpg"	      x="0" y="0" w="646" h="384"/>
+</Resources>
+

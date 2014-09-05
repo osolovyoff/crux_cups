@@ -1,0 +1,27 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Level width="18" height="14">
+	<Map>
+		<Cell i="1" j="2" type="1"></Cell>
+		<Cell i="1" j="3" type="0"></Cell>
+		<Cell i="1" j="5" type="0"></Cell>
+		<Cell i="1" j="6" type="5"></Cell>
+		<Cell i="2" j="3" type="2"></Cell>
+		<Cell i="2" j="4" type="0"></Cell>
+		<Cell i="2" j="5" type="4"></Cell>
+		<Cell i="3" j="4" type="3"></Cell>
+	</Map>
+	<Result>
+		<Cell i="1" j="2" type="5"></Cell>
+		<Cell i="1" j="6" type="1"></Cell>
+		<Cell i="2" j="3" type="4"></Cell>
+		<Cell i="2" j="5" type="2"></Cell>
+		<Cell i="3" j="4" type="3"></Cell>
+	</Result>
+</Level>
+
+<!-- cup value
+	   -1 = wall,
+	    0 = way,
+	 1-99 = color of cup;
+ -->
